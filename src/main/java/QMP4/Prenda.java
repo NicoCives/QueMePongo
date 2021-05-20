@@ -5,7 +5,7 @@ public class Prenda {
   Material material;
   Color colorPrincipal;
   Color colorSecundario;
-  Trama trama;
+  Trama trama = Trama.LISA;
 
   public Prenda(TipoPrenda tipo, Categoria categoria, Material material, Trama trama, Color colorPrincipal) {
 
